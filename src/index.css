@@ -1,1 +1,13 @@
 @import "tailwindcss";
+.navBerLink{
+    @apply cursor-pointer hover:text-red-500 md:text-lg font-mono;
+}
+.btnLogin{
+    @apply bg-blue-500 text-white font-mono px-4 py-2 rounded-md hover:bg-red-400 cursor-pointer hover:text-black md:text-lg;
+}
+.logo{
+    @apply md:text-2xl font-mono text-lg;
+}
+.btn{
+    @apply bg-orange-800 text-white font-mono px-4 py-2 rounded-md hover:bg-red-400 cursor-pointer hover:text-black md:text-lg;
+}
